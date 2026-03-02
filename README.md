@@ -1,16 +1,70 @@
-# flutter_application_1
+# 🚗 Vehicle Management System
 
-A new Flutter project.
+A Flutter-based mobile application developed using Dart and Object-Oriented Programming (OOP) principles.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Project Overview
 
-A few resources to get you started if this is your first Flutter project:
+This project implements a complete Vehicle Management System that allows users to:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Add new vehicles (Motorcycle, Car, Truck)
+- Delete vehicles
+- Insert vehicles at specific positions
+- Modify vehicle data
+- Search vehicles by:
+  - Manufacture Company
+  - Manufacture Date
+  - Plate Number
+- Display vehicle information
+- Save and load data using JSON
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🏗 OOP Structure
+
+The system includes the following classes:
+
+- Engine
+- Automobile (Base Class)
+- Motorcycle
+- Vehicle
+- Car
+- Truck
+
+All data fields are private and accessed using getters and setters.
+
+---
+
+## 💾 Data Persistence
+
+The system uses:
+
+- jsonEncode() / jsonDecode()
+- dart:io
+- path_provider
+- toJson() / fromJson()
+
+Data is saved locally as JSON files when the app closes and reloaded when it starts.
+
+---
+
+## 🖥 Technologies Used
+
+- Flutter
+- Dart
+- OOP
+- JSON Serialization
+- Local File Storage
+
+---
+
+## 📷 Application Screenshots
+
+(Add your screenshots here)
+
+---
+
+## 👩‍💻 Developed By
+
+Shahd Rawajbeh
