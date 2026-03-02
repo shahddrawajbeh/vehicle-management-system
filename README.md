@@ -58,13 +58,28 @@ Data is saved locally as JSON files when the app closes and reloaded when it sta
 - Local File Storage
 
 ---
-
 ## 📷 Application Screenshots
 
-(Add your screenshots here)
+### Screenshot 1
+![Screenshot 1](assets/screenshots/Screenshot%202026-03-02%20224952.png)
 
----
+### Screenshot 2
+![Screenshot 2](assets/screenshots/Screenshot%202026-03-02%20225000.png)
 
+### Screenshot 3
+![Screenshot 3](assets/screenshots/Screenshot%202026-03-02%20225008.png)
+
+### Screenshot 4
+![Screenshot 4](assets/screenshots/Screenshot%202026-03-02%20225015.png)
+
+### Screenshot 5
+![Screenshot 5](assets/screenshots/Screenshot%202026-03-02%20225022.png)
+
+### Screenshot 6
+![Screenshot 6](assets/screenshots/Screenshot%202026-03-02%20225030.png)
+
+### Screenshot 7
+![Screenshot 7](assets/screenshots/Screenshot%202026-03-02%20225055.png)
 ## 👩‍💻 Developed By
 
 Shahd Rawajbeh
