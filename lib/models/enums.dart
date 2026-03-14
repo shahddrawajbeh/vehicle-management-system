@@ -1,6 +1,17 @@
+// enum FuelType { diesel, gasoline }
+
+// enum GearType { normal, automatic }
+
+// FuelType fuelTypeFromString(String value) =>
+//     FuelType.values.firstWhere((e) => e.name == value);
+
+// GearType gearTypeFromString(String value) =>
+//     GearType.values.firstWhere((e) => e.name == value);
 enum FuelType { diesel, gasoline }
 
 enum GearType { normal, automatic }
+
+enum VehicleType { motorcycle, car, truck }
 
 FuelType fuelTypeFromString(String value) =>
     FuelType.values.firstWhere((e) => e.name == value);
