@@ -49,6 +49,7 @@ class Car extends Vehicle {
   Map<String, dynamic> toJson() {
     final base = super.toJson();
     base.addAll({
+      'type': 'car',
       'chairNum': _chairNum,
       'isFurnitureLeather': _isFurnitureLeather,
     });

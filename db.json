@@ -1,0 +1,111 @@
+{
+  "vehicles": [
+    {
+      "id": "1",
+      "type": "car",
+      "manufactureCompany": "BMW",
+      "manufactureDate": "2023-01-10T00:00:00.000",
+      "model": "Corolla",
+      "engine": {
+        "manufacture": "Toyota",
+        "manufactureDate": "2022-12-01T00:00:00.000",
+        "model": "E100",
+        "capacity": 1600,
+        "cylinders": 4,
+        "fuelType": "gasoline"
+      },
+      "plateNum": 12345,
+      "gearType": "automatic",
+      "bodySerialNum": 111,
+      "length": 450,
+      "width": 180,
+      "color": "White",
+      "chairNum": 5,
+      "isFurnitureLeather": true
+    },
+    {
+      "id": "2",
+      "type": "truck",
+      "manufactureCompany": "Volvo",
+      "manufactureDate": "2022-05-12T00:00:00.000",
+      "model": "FH",
+      "engine": {
+        "manufacture": "Volvo",
+        "manufactureDate": "2022-01-01T00:00:00.000",
+        "model": "D13",
+        "capacity": 5000,
+        "cylinders": 6,
+        "fuelType": "diesel"
+      },
+      "plateNum": 67890,
+      "gearType": "normal",
+      "bodySerialNum": 222,
+      "length": 900,
+      "width": 250,
+      "color": "Blue",
+      "freeWeight": 4000.5,
+      "fullWeight": 8000
+    },
+    {
+      "id": "3",
+      "type": "motorcycle",
+      "manufactureCompany": "Honda",
+      "manufactureDate": "2024-02-20T00:00:00.000",
+      "model": "CBR",
+      "engine": {
+        "manufacture": "Honda",
+        "manufactureDate": "2024-01-15T00:00:00.000",
+        "model": "H250",
+        "capacity": 250,
+        "cylinders": 2,
+        "fuelType": "gasoline"
+      },
+      "plateNum": 33333,
+      "gearType": "normal",
+      "bodySerialNum": 333,
+      "tierDiameter": 17.5,
+      "length": 210
+    },
+    {
+      "id": "QCMaj6z3Lr0",
+      "manufactureCompany": "test",
+      "manufactureDate": "2026-04-17T00:00:00.000",
+      "model": "model test",
+      "engine": {
+        "manufacture": "DefaultCo",
+        "manufactureDate": "2020-01-01T00:00:00.000",
+        "model": "E-Model",
+        "capacity": 1600,
+        "cylinders": 4,
+        "fuelType": "gasoline"
+      },
+      "plateNum": 11111,
+      "gearType": "automatic",
+      "bodySerialNum": 1111,
+      "type": "motorcycle",
+      "tierDiameter": 12,
+      "length": 12.5
+    },
+    {
+      "id": "DSrI5FPumW0",
+      "manufactureCompany": "test motor",
+      "manufactureDate": "2026-04-10T00:00:00.000",
+      "model": "motor model",
+      "engine": {
+        "manufacture": "DefaultCo",
+        "manufactureDate": "2020-01-01T00:00:00.000",
+        "model": "E-Model",
+        "capacity": 1600,
+        "cylinders": 4,
+        "fuelType": "gasoline"
+      },
+      "plateNum": 123456,
+      "gearType": "automatic",
+      "bodySerialNum": 123456,
+      "type": "motorcycle",
+      "tierDiameter": 5.5,
+      "length": 15
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

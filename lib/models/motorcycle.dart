@@ -47,6 +47,7 @@ class Motorcycle extends Automobile {
   Map<String, dynamic> toJson() {
     final base = super.toJson();
     base.addAll({
+      'type': 'motorcycle',
       'tierDiameter': _tierDiameter,
       'length': _length,
     });

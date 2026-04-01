@@ -1,5 +1,4 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../repository/storage_service.dart';
 import 'persistence_event.dart';
 import 'persistence_state.dart';

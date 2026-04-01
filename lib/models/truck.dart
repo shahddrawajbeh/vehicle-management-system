@@ -49,6 +49,7 @@ class Truck extends Vehicle {
   Map<String, dynamic> toJson() {
     final base = super.toJson();
     base.addAll({
+      'type': 'truck',
       'freeWeight': _freeWeight,
       'fullWeight': _fullWeight,
     });
